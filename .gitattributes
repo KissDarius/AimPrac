@@ -1,1 +1,5 @@
-*.shader linguist-generated
+Assets/TextMesh?Pro/** linguist-vendored
+Assets/Plugins/** linguist-vendored
+*.cginc linguist-detectable=false
+*.hlsl linguist-detectable=false
+*.shader linguist-detectable=false
