@@ -106,7 +106,7 @@ public class PlayerMovement : MonoBehaviour
 	{
 		if (isGrounded)
 		{
-			rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+			rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
 			rb.AddForce(base.transform.up * jumpForce, ForceMode.Impulse);
 		}
 	}
@@ -127,11 +127,11 @@ public class PlayerMovement : MonoBehaviour
 	{
 		if (isGrounded)
 		{
-			rb.drag = groundDrag;
+			rb.linearDamping = groundDrag;
 		}
 		else
 		{
-			rb.drag = airDrag;
+			rb.linearDamping = airDrag;
 		}
 	}
 
