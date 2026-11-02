@@ -15,7 +15,7 @@ Download the latest Windows build from the [Releases](https://github.com/KissDar
 
 ## Features
 
-- Main menu with Practice, Options and Exit
+- Main menu with Practice, Options, Exit interactive and animated buttons
 - Options menu with volume slider and fullscreen toggle
 - First-person movement and mouse look
 - Weapon with recoil animation
